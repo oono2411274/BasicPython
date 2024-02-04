@@ -5,3 +5,7 @@ text = """
 
 # TODO
 
+result = text.split()
+for word in result:
+    print(len(word), end="")
+print("")
